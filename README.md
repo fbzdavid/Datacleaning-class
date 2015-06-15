@@ -1,12 +1,12 @@
 ##Description of the varaible and scripts
 
 ###Varible:
-*featureNames: descriptive variable names
-*Data: combined training and test data
-*subject: subject names for Data variable
-*label: activity names for Data variable
-*temp: temp varialbe to store activity_lable data.frame
-*Data1: final tidy data for output
+* featureNames: descriptive variable names
+* Data: combined training and test data
+* subject: subject names for Data variable
+* label: activity names for Data variable
+* temp: temp varialbe to store activity_lable data.frame
+* Data1: final tidy data for output
 
 ###Descriptiton of the script:
 * The script first load the dplyr libray, then read the training and test data, and the data is combined using rbind, saved in varialbe Data;
